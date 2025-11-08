@@ -331,7 +331,6 @@ img {
   gap: 24px;
 }
 .section-our-team-post {
-  padding-bottom: 32px;
   width: calc((100% - 24px * 3) / 4);
 
   border-radius: 0 0 4px 4px;
@@ -342,21 +341,19 @@ img {
 }
 .our-team-text-container {
   text-align: center;
-  padding-top: 32px;
-  margin-bottom: 8px;
+  padding: 32px 0;
 }
 .section-our-team-post-title {
   margin-bottom: 8px;
 }
 .section-our-team-post-text {
+  margin-bottom: 8px;
 }
 
-.social-container {
-  margin: 0 16px;
-}
 .social-list {
   display: flex;
   gap: calc((100% - 40px * 4) / 3);
+  padding: 0 16px;
 }
 
 .social-item {
@@ -375,6 +372,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  fill: #ffffff;
 }
 /* #endregion Our Team */
 
