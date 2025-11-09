@@ -427,9 +427,10 @@ img {
 .footer-container {
   display: flex;
   justify-content: start;
+  align-items: baseline;
 }
 .footer-logo-text-container {
-  margin-right: 104px;
+  margin-right: 120px;
 }
 .logo_footer {
   display: inline-block;
@@ -440,17 +441,22 @@ img {
 .footer-text {
   max-width: 264px;
 }
-.footer-social-link-container {
+.footer-social-link-container .social-list {
+  gap: 16px;
 }
-.footer-social-text {
+.footer-social-link-container .footer-social-text {
   padding: 0 16px;
   margin-bottom: 16px;
+  font-weight: 500;
+  color: #ffffff;
 }
 .social-list {
 }
 .social-item {
 }
-.social-link {
+.footer-social-link-container .social-link:hover,
+.footer-social-link-container .social-link:focus {
+  background-color: #31d0aa;
 }
 .social-icon {
 }
